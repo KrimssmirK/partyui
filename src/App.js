@@ -1,13 +1,25 @@
 import './App.css';
-import Navigation from './navbar/Navigation';
+
+// for bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
-  return (
-    <div className="App">
-     <Navigation />
-    </div>
-  );
-}
+import Navigation from './navbar/Navigation';
+import Carousel from './carousel/Carousel';
+import Reservation from './reservation/Reservation';
+import Announcement from './announcement/Announcement';
+import AboutUs from './about/aboutus';
+
+// testing for calendar app
+import MyCalendar from './calendar/MyCalendar';
+
+const App = () =>  
+  <div className="App">
+    <Navigation />
+    <Carousel />
+    <Reservation />
+    <Announcement />
+    <AboutUs />
+    <MyCalendar />
+  </div>
 
 export default App;
