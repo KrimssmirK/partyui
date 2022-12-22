@@ -9,8 +9,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 
-function Navigation() {
-  return (
+const Navigation = () =>
     <div className="Navigation">
       <Navbar bg="light" expand="lg" className="Navigation">
         <Container>
@@ -30,7 +29,7 @@ function Navigation() {
         </Container>
       </Navbar>
     </div>
-  );
-}
+
+
 
 export default Navigation;
