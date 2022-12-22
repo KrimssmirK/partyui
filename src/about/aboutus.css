@@ -13,9 +13,11 @@
 }
 
 .AboutUs img {
-  max-width: 100vw;
-  max-height: 100vw;
-  object-fit: fill; 
+  /* padding: 0px;
+  margin: 0px; */
+  width: inherit;
+  height: inherit;
+  /* object-fit: cover;  */
 }
 
 .insta-icon {
@@ -31,10 +33,14 @@
   background-color: #272D06;
   color: white;
   border-bottom: 1px solid #615B5B;
-  padding:5px;
+  padding:0px;
   margin:0;
 }
 
 .AboutUs-description p {
   margin:0;
+}
+
+.AboutUs .container-fluid {
+  padding: 0;
 }

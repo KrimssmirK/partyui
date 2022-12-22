@@ -37,14 +37,14 @@ const AboutUs = () =>
         <FontAwesomeIcon icon={faLocationArrow} className='arrow-icon pt-1 px-1' />
         <p>3F, 1 Chome-2-12 Tsuboya, Naha, Okinawa 902-0065, Japan</p>
       </div>
-      <div>
+      <div className='container-fluid' >
         <img src={location} alt='location map of party color' />
       </div>
     </div>
     <div className='AboutUs-title'>
       <h2>APPEARANCE</h2>
     </div>
-    <div>
+    <div className='container-fluid'>
       <img src={appearance} alt='image inside of party color' />
     </div>
     <div className='AboutUs-title d-flex justify-content-between'>
