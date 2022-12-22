@@ -10,7 +10,7 @@ import Announcement from './announcement/Announcement';
 import AboutUs from './about/aboutus';
 
 // testing for calendar app
-import MyCalendar from './calendar/MyCalendar';
+// import MyCalendar from './calendar/MyCalendar';
 
 const App = () =>  
   <div className="App">
@@ -19,7 +19,7 @@ const App = () =>
     <Reservation />
     <Announcement />
     <AboutUs />
-    <MyCalendar />
+    {/* <MyCalendar /> */}
   </div>
 
 export default App;
